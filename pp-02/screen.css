@@ -7,3 +7,12 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+body {
+  margin: 10px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-gap: 10px;
+}
