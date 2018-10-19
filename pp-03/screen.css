@@ -37,7 +37,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 #two,
 #one {
   height: 350px;
-  width: 350px;
+  width: 300px;
 }
 
 @media screen and (min-width: 600px) {
@@ -48,5 +48,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 
 @media screen and (min-width: 800px) {
-
+  html{
+    display: flex;
+    justify-content: center;
+  }
 }
