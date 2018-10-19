@@ -43,7 +43,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 @media screen and (min-width: 600px) {
   html{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
   }
 }
 
