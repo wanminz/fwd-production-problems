@@ -9,7 +9,8 @@ function double(num) {
   return x;
 }
 
-double(6);
+// ensuring that console.log call outputs correct value for x
+console.log(double(6));
 console.log('The value of x is:', x, 'It should be 5.');
 
 //  2. Rewrite the corrected JavaScript above as a self-executing
