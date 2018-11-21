@@ -1,7 +1,3 @@
-//  1. Correct the variable scope so that the console.log call
-//  outputs the correct value for x (5) even after double(6) is
-//  called:
-
 var x = 5;
 
 function double(num) {
@@ -9,7 +5,8 @@ function double(num) {
   return x;
 }
 
-// ensuring that console.log call outputs correct value for x
+// correcting variable scope to ensuring that console.log call
+// outputs correct value for x
 console.log(double(6));
 console.log('The value of x is:', x, 'It should be 5.');
 
@@ -19,12 +16,9 @@ console.log('The value of x is:', x, 'It should be 5.');
 //  function can be accessed via the `window` global object,
 //  like `window.x`):
 
-
-//  3. Correct this function so that there is no i variable in
-//  the global scope:
-
+// make i a var to ensure that i isn't in global scope
 function arrayEach(array, func) {
-  for (i = 0; i < array.length; i++) {
+  for (var i = 0; i < array.length; i++) {
     func(array[i]);
   }
 }
