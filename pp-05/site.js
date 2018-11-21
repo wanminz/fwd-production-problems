@@ -10,12 +10,6 @@ function double(num) {
 console.log(double(6));
 console.log('The value of x is:', x, 'It should be 5.');
 
-//  2. Rewrite the corrected JavaScript above as a self-executing
-//  anonymous function that does not pollute the global
-//  namespace (e.g., neither its variables nor the double
-//  function can be accessed via the `window` global object,
-//  like `window.x`):
-
 // make i a var to ensure that i isn't in global scope
 function arrayEach(array, func) {
   for (var i = 0; i < array.length; i++) {
@@ -26,10 +20,6 @@ function arrayEach(array, func) {
 arrayEach(['red','green','blue'], console.log);
 
 console.log(i) // should be 'undefined', not 3
-
-//  4. Explain why this function does not modify the global
-//  variable x declared on line 5 above. Write your explanation
-//  as JavaScript comments.
 
 function addTwo(x) {
   x = x + 2;
